@@ -1,5 +1,4 @@
 # S50947
-First question
 def countBits(n):
     count = 0
     while (n):
