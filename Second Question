@@ -1,0 +1,4 @@
+#S50947
+import collections
+s = input("Enter sentences without space : ")
+print(collections.Counter(s).most_common(1)[0])
