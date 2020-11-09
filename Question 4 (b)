@@ -1,0 +1,9 @@
+a = input("Enter value : ")
+value = int(a)
+
+def multiply_by_three(x):
+    return x * 3
+   
+def multiply_output(function):
+        x = multiply_by_three(10) * value
+print(x)
