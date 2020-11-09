@@ -1,0 +1,13 @@
+def augment_function(function, decorators):
+    print()
+
+def multiply_output(function):
+    print("This will return 2*(", function, "+ 3)", "=", multiply_by_three(function) + 3)
+    return
+
+
+def multiply_by_three(x):
+    return x * 2
+
+
+multiply_output(4)
